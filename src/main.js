@@ -8,5 +8,6 @@ import axios from 'axios'
 
 import OpenLayersMap from 'vue3-openlayers'
 import 'vue3-openlayers/dist/vue3-openlayers.css'
+import './assets/tailwind.css'
 
 createApp(App).use(router).use(OpenLayersMap).use(VueAxios, axios).mount('#app')
